@@ -53,6 +53,7 @@ namespace Thinktecture.IdentityServer.Host
                         SiteName = "Thinktecture IdentityServer v3 - beta 3",
                         Factory = factory,
                         SigningCertificate = Cert.Load(),
+                        RequireSsl = false,
 
                         CorsPolicy = CorsPolicy.AllowAll,
                         CspOptions = new CspOptions 
